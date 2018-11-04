@@ -80,7 +80,7 @@ module.exports = function (RED) {
         conn.on('ready', function () {
           switch (node.operation) {
             case 'list':
-              conn.list(node.sendMsg);
+              conn.list(filename, node.sendMsg);
               break;
             case 'get':
               conn.get(filename, node.sendMsg);
