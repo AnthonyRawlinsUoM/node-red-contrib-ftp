@@ -29,7 +29,7 @@ module.exports = function (RED) {
       'secure': n.secure || false,
       'secureOptions': n.secureOptions,
       'user': n.user || 'anonymous',
-      'password': credentials.password || 'anonymous@',
+      'password': credentials.password || 'anonymous',
       'connTimeout': n.connTimeout || 10000,
       'pasvTimeout': n.pasvTimeout || 10000,
       'keepalive': n.keepalive || 10000
