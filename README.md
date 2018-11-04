@@ -1,4 +1,4 @@
-node-red-contrib-ftp
+node-red-contrib-ftp-sub
 ========================
 A Node-RED node to FTP Server.
 
@@ -9,7 +9,7 @@ Install
 
 Run the following command in the root directory of your Node-RED install
 
-    npm install node-red-contrib-ftp
+    npm install node-red-contrib-ftp-sub
 
 Usage
 -------
